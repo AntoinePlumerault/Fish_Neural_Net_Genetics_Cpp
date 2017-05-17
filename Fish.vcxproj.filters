@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Simulator">
+      <UniqueIdentifier>{e2b80906-e8bc-4408-9d37-c03ac1b1e33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Simulator">
+      <UniqueIdentifier>{7702b70f-f21c-443f-b235-066ed7723950}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Individual.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Feed_forward_NN.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Brain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bocal.cpp">
+      <Filter>Fichiers sources\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>Fichiers sources\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Life_form.cpp">
+      <Filter>Fichiers sources\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Plankton.cpp">
+      <Filter>Fichiers sources\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>Fichiers sources\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Shark.cpp">
+      <Filter>Fichiers sources\Simulator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Individual.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Population.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Brain.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Feed_forward_NN.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Bocal.hpp">
+      <Filter>Fichiers d%27en-tête\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.hpp">
+      <Filter>Fichiers d%27en-tête\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Life_form.hpp">
+      <Filter>Fichiers d%27en-tête\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Plankton.hpp">
+      <Filter>Fichiers d%27en-tête\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.hpp">
+      <Filter>Fichiers d%27en-tête\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Shark.hpp">
+      <Filter>Fichiers d%27en-tête\Simulator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\background_2.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="CaviarDreams.ttf">
+      <Filter>Fichiers de ressources</Filter>
+    </Font>
+    <Font Include="FUTRFW.TTF">
+      <Filter>Fichiers de ressources</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
